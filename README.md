@@ -3,7 +3,7 @@
 ## TABLE OF CONTENTS
 * [TABLE OF CONTENTS](#TABLE-OF-CONTENTS)
 * [HELLO PYTHON](#HELLO-PYTHON)
-* [HELLO PYTHON SPICY](#HELLO-PYTHON-SPICY)
+* [PYTHON CALCULATOR](#PYTHON-CALCULATOR)
 
 ## HELLO PYTHON
 ```C
@@ -22,26 +22,7 @@ while value == "": //the statement is true while the value doesn't have any stri
         print("Roll the dice again?")
 ```
 
-## HELLO PYTHON SPICY
+## PYTHON CALCULATOR
 
-```C
-import random
+![python_calculator](https://user-images.githubusercontent.com/56890879/133631622-7f7e28c0-0ef3-4a0e-8b6b-92027ae37f0f.png)
 
-sides = ""
-
-print("Automatic Dice Roller")
-value="" #variable for storing inputs
-
-while value != "x": #the statement is true while the value doesn't have any strings inside it
-    sides = input("How many sides do you want on your dice?: ")
-    value = input("How many dice do you want to roll?: ")
-    
-    r = random.randint(1, 6) #choose a random integer between the given limits
-    value = input("Press Enter to roll, press x then Enter to quit")
-    
-    if value == "": #checks to see if the statement is still valid
-        
-        print(r)
-        print("Roll the dice again?")
-
-```

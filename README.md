@@ -44,6 +44,6 @@ Your turn! You will be writing a section of readme like this for all subsequent 
 
 
 ### Wiring
-
+N/A
 
 ### Reflection

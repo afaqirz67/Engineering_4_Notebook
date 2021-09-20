@@ -24,5 +24,5 @@ while value == "": //the statement is true while the value doesn't have any stri
 
 ## PYTHON CALCULATOR
 
-![python_calculator](https://user-images.githubusercontent.com/56890879/133631622-7f7e28c0-0ef3-4a0e-8b6b-92027ae37f0f.png)
+![python_calculator](https://user-images.githubusercontent.com/56890879/134016155-697fe1af-c13f-497c-bd74-a5b26f6fc654.png)
 

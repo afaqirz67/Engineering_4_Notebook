@@ -1,7 +1,7 @@
 # Engineering_4_Notebook
 
 ## TABLE OF CONTENTS
-* [Python Dice Roller](#Python-Dice-Roller)
+* [PYTHON DICE ROLLER](#PYTHON-DICE-ROLLER)
 * [PYTHON CALCULATOR](#PYTHON-CALCULATOR)
 
 
@@ -11,7 +11,7 @@
 
 
 
-## Python Dice Roller
+## PYTHON DICE ROLLER
 Okay so I am giving you a freebie so you have an example of the kind of reflections that I want. I'll start you off with an example for dice_roller.py, then its up to you to start your reflections with the Python calculator and all subsequent assignments. You can delete this section from your personal readme. 
 
 ### Assignment Description

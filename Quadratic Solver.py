@@ -1,8 +1,8 @@
 import math
 
 
-def solve(a, b, c):
-    discernment = (b * b - 4 * a * c)
+def solve(a, b, c):                                     #defines the function solve and  takes three inputs
+    discernment = (b * b - 4 * a * c)                   #declares the formula and sets it equal to 
     if discernment > 0:
         one = (-b + math.sqrt(b * b - 4 * a * c))/(2*a)
         two = (-b - math.sqrt(b * b - 4 * a * c))/(2*a)

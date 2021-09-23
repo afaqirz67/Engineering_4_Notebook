@@ -3,7 +3,7 @@
 ## TABLE OF CONTENTS
 * [PYTHON DICE ROLLER](#PYTHON-DICE-ROLLER)
 * [PYTHON CALCULATOR](#PYTHON-CALCULATOR)
-
+* [STRINGS & LOOPS](#STRINGS-&-LOOPS)
 
 
 
@@ -29,7 +29,7 @@ N/A
 ### Reflection
 
 This assignment was relatively simple, but was challenging because I had not coded in Python for several months. I learned that I could import parts of toolboxes without importing the entire thing, but that changes the syntax of how I call the function later. I also learned about using a while loop to control whether a user wants to exit the program. For the spicy version, I needed to use nested loops. Python determines what is inside a loop by the indent level of each line of text, rather than brackets like some other coding styles. That means I need to be really careful with my tabs!
-
+---
 
 ## PYTHON CALCULATOR
 
@@ -47,3 +47,14 @@ Your turn! You will be writing a section of readme like this for all subsequent 
 N/A
 
 ### Reflection
+---
+## STRINGS & LOOPS
+
+### Assignment Description
+...
+
+### Evidence
+![strings- -loops](https://user-images.githubusercontent.com/56890879/134520351-8a623f9c-1094-4ddf-a08d-343ea6b1005e.png)
+
+### Reflection
+

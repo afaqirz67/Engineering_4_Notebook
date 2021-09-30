@@ -29,13 +29,13 @@ N/A
 ### Reflection
 
 This assignment was relatively simple, but was challenging because I had not coded in Python for several months. I learned that I could import parts of toolboxes without importing the entire thing, but that changes the syntax of how I call the function later. I also learned about using a while loop to control whether a user wants to exit the program. For the spicy version, I needed to use nested loops. Python determines what is inside a loop by the indent level of each line of text, rather than brackets like some other coding styles. That means I need to be really careful with my tabs!
----
+
 
 ## PYTHON CALCULATOR
 
 ### Assignment Description
 
-Your turn! You will be writing a section of readme like this for all subsequent assignments.
+This assignment required prompting the user for two integers. Then out the sum, difference, quotient, product, and modulo of the integers using a function.
 
 ### Evidence 
 
@@ -47,14 +47,18 @@ Your turn! You will be writing a section of readme like this for all subsequent 
 N/A
 
 ### Reflection
----
+This assignment was the first task of the year to use functions. It was a good recap of function definition. Functions are powerful tools that make the code look clean. It helps
+break our program into smaller chunks. The code becomes much understandable. 
+
 ## STRINGS & LOOPS
 
 ### Assignment Description
-...
+This program prompts the user for a simple sentence. It splits and prints the each letter in that sentence in a new line using for loop and slpit function. The program takes the 
+input as an array and then loops through each letter using the for loop. 
 
 ### Evidence
 ![strings- -loops](https://user-images.githubusercontent.com/56890879/134520351-8a623f9c-1094-4ddf-a08d-343ea6b1005e.png)
 
 ### Reflection
-
+This was a relatively small looking program. Although, that couple lines of code does much more than it seems. It was a good practice on getting started with loops and in 
+particular while loops. 

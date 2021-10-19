@@ -10,10 +10,6 @@
 
 
 
-
-
-
-
 ## PYTHON DICE ROLLER
 
 ### Assignment Description
@@ -23,12 +19,10 @@ the program should exit. The spicy version added complexity by asking the user t
 was then asked whether they wanted to roll again with the same settings, change the settings, or exit the program. 
 
 ### Evidence 
-
 ![hello-python](https://user-images.githubusercontent.com/56890879/134016672-5f7f3e23-9b19-49fc-86fa-9a4bb86525aa.png)
 
 
 ### Wiring
- 
 N/A
 
 ### Reflection
@@ -45,9 +39,7 @@ other coding styles. That means I need to be really careful with my tabs!
 This assignment required prompting the user for two integers. Then out the sum, difference, quotient, product, and modulo of the integers using a function.
 
 ### Evidence 
-
 ![python_calculator](https://user-images.githubusercontent.com/56890879/134016155-697fe1af-c13f-497c-bd74-a5b26f6fc654.png)
-
 
 
 ### Wiring
@@ -82,7 +74,7 @@ input as an array and then loops through each letter using the for loop.
 This was a relatively small looking program. Although, that couple lines of code does much more than it seems. It was a good practice on getting started with loops and in 
 particular while loops. 
 
-## CAD_Swing_Arm
+## CAD Swing Arm
 
 ### Assignment Description
 This assignment asked me to replicate a swing arm part from a set of drawings. The assignment style is similar to a portion of the Onshape Associate Certification test.

@@ -81,6 +81,26 @@ input as an array and then loops through each letter using the for loop.
 This was a relatively small looking program. Although, that couple lines of code does much more than it seems. It was a good practice on getting started with loops and in 
 particular while loops. 
 
+## CAD_Swing_Arm
+
+### Assignment Description
+This assignment asked me to replicate a swing arm part from a set of drawings. The assignment style is similar to a portion of the Onshape Associate Certification test.
+
+### Evidence
+Configuration #1
+![Swing-Arm](https://user-images.githubusercontent.com/56890879/137917494-a6a5cf64-412b-4200-8c40-add005f389d9.png)
+
+Configuration #2
+![Swing-Arm C2](https://user-images.githubusercontent.com/56890879/137917654-caa515ae-565c-4070-9eb9-5e3308e57a69.png)
+
+### Part Link
+[SwingArmPart](https://cvilleschools.onshape.com/documents/b6caf09573d5052c39675569/w/1182089166d6448978cdb63c/e/e4d82f8a8982c92b87fb32c8?
+renderMode=0&uiState=616ec7fc3ecec27295a51a48)
+
+Reflection
+Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
+
+
 ## SKATEBOARD
 
 ### Assignment Description

@@ -107,3 +107,8 @@ Creating this part from a drawing was more difficult than I expected. Combining 
 
 ### Evidence![Skateboard](https://user-images.githubusercontent.com/56890879/137754185-ee7d3e1e-953f-42db-8a32-9eaddb0acd07.png)
 
+### Part Link
+[SKATEBOARD](https://cvilleschools.onshape.com/documents/d1abe0d55938187b9de79b3d/w/1f31a6d52601663eb8490c4f/e/1ffd5dbd01a799ccd8421e1e?
+renderMode=0&uiState=616ec8f015e9d679abfce84c)
+
+### Reflection

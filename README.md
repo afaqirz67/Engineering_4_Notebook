@@ -97,13 +97,15 @@ Configuration #2
 [SwingArmPart](https://cvilleschools.onshape.com/documents/b6caf09573d5052c39675569/w/1182089166d6448978cdb63c/e/e4d82f8a8982c92b87fb32c8?renderMode=0&uiState=616ec7fc3ecec27295a51a48)
 
 ### Reflection
-Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
+Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part 
+was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
 
 
 ## SKATEBOARD
 
 ### Assignment Description
-...
+This assignment had asked for sketching a skateboard and the instructions were relatively simple and step by step from Onshape itself. It had broken down every part into 
+a separate section and all the steps were well described and the page also included short videos for every step.
 
 ### Evidence![Skateboard](https://user-images.githubusercontent.com/56890879/137754185-ee7d3e1e-953f-42db-8a32-9eaddb0acd07.png)
 
@@ -111,3 +113,7 @@ Creating this part from a drawing was more difficult than I expected. Combining 
 [SKATEBOARD Part](https://cvilleschools.onshape.com/documents/d1abe0d55938187b9de79b3d/w/1f31a6d52601663eb8490c4f/e/1ffd5dbd01a799ccd8421e1e?renderMode=0&uiState=616ec8f015e9d679abfce84c)
 
 ### Reflection
+This assignment seemed to be hard, but the detailed instructions made it fairly simple. Although, it was time consuming due to the point that every step was so detailed and
+there was a little extra description for one with some experience. The videos were also time consuming because they were non-skippable. Overall, other that sole issue,
+everything else was pretty straight forward. I also took a couple extra steps and made the parts look real using the instructions. A better approach in doing assignments like
+this would be doing it in your own way and use the descriptions only as needed.

@@ -7,6 +7,7 @@
 * [STRINGS & LOOPS](#STRINGS-&-LOOPS)
 * [CAD Swing Arm](#CAD-Swing-Arm)
 * [SKATEBOARD](#SKATEBOARD)
+* [BUILDING BLOCKS](#BUILDING-BLOCKS)
 
 
 
@@ -111,3 +112,15 @@ This assignment seemed to be hard, but the detailed instructions made it fairly 
 there was a little extra description for one with some experience. The videos were also time consuming because they were non-skippable. Overall, other that sole issue,
 everything else was pretty straight forward. I also took a couple extra steps and made the parts look real using the instructions. A better approach in doing assignments like
 this would be doing it in your own way and use the descriptions only as needed.
+
+## BUILDING BLOCKS
+### Assignemnt Description
+
+
+### Evidence
+
+
+### Part Link
+
+
+### Reflection

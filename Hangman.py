@@ -1,3 +1,7 @@
+#Hangman - ENGR4
+#Written by Asadullah Faqirzada
+#10/28/2021
+
 hanger = "---"+"┐" #Characters to draw hangman - each body part is associated with a specific name
 head = "   O\n"
 head2 = "   O"

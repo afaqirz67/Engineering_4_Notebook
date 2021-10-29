@@ -29,7 +29,6 @@ print("player two guess a letter: ")
 
 while wrong < 8:                                       #the loop will run until the number of wrong guess hasn't reached 8
     guess = input("")                                  
-    print(hanger)
     i = 0
 
     if guess not in word:                               #if the guessed letter is not in the word

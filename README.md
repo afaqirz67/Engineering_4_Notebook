@@ -6,6 +6,7 @@
 * [QUADRATIC SOLVER](#QUADRATIC-SOLVER)
 * [STRINGS & LOOPS](#STRINGS-&-LOOPS)
 * [CAD Swing Arm](#CAD-Swing-Arm)
+* [Hangman](#Hangman)
 * [SKATEBOARD](#SKATEBOARD)
 * [BUILDING BLOCKS](#BUILDING-BLOCKS)
 
@@ -95,6 +96,19 @@ Configuration #2
 Creating this part from a drawing was more difficult than I expected. Combining the different drawing views with the various dimensions took several tries. Even though the part 
 was made with simple extrudes, they were combined in relatively complex ways. Next time, I will spend more time analyzing the drawings before I actually start making the part!
 
+## Hangman
+### Assignemnt Description
+This assignment had asked for a program to play the hangman game on. The requirements were pretty clear. One player entered a word, and the second player would try to guess
+the letters. With each wrong letter one part of the body would add to the hanging log. If all the body parts were drawn, player 1 would have won.
+
+### Image
+![hangman](https://user-images.githubusercontent.com/56890879/139359284-56653477-3057-400f-9d29-e48c8c656eb8.png)
+
+### Reflection
+This assignment was relatively challenging to me since I hadn't gotten the entire logic of the program and how, when, and where each step occurred. Although, if the steps are
+thought out, and the logic behind the code is understood before writing the code, it wouldn't be a hard task to get done. It would only be converting the logic to code. The code 
+for this program includes usage of for loop, while loop, array, and simple if statements. The arrays were specifically crucial since there was much to do with letters
+and specific spots of the letters. Although, to sum it up it was a good task to reuse all the skill sets learned in previous courses. 
 
 ## SKATEBOARD
 

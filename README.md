@@ -9,7 +9,7 @@
 * [Hangman](#Hangman)
 * [SKATEBOARD](#SKATEBOARD)
 * [BUILDING BLOCKS](#BUILDING-BLOCKS)
-
+* [Lego](#Lego)
 
 
 
@@ -127,7 +127,7 @@ there was a little extra description for one with some experience. The videos we
 everything else was pretty straight forward. I also took a couple extra steps and made the parts look real using the instructions. A better approach in doing assignments like
 this would be doing it in your own way and use the descriptions only as needed.
 
-## BUILDING BLOCKS
+## Lego
 ### Assignemnt Description
 
 

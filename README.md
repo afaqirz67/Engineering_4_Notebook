@@ -129,13 +129,14 @@ this would be doing it in your own way and use the descriptions only as needed.
 
 ## Lego
 ### Assignemnt Description
-
+  
 
 ### Evidence
 ![BUILDING BLOCK](https://user-images.githubusercontent.com/56890879/138303597-96788495-9708-4c49-8f2e-aff6ea54f30c.png)
+![helicopter](https://user-images.githubusercontent.com/56890879/140766203-8de3f5d0-681b-4c6e-9dce-b357d04b26fc.png)
 
 
 ### Part Link
-
+[Helicopter](https://cvilleschools.onshape.com/documents/dac50ba6e2122ed644e2225b/w/b9a01a23e1e1b1c32f1c3de6/e/4e6c90c242a7af0fafa96916)
 
 ### Reflection

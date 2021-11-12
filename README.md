@@ -129,8 +129,7 @@ this would be doing it in your own way and use the descriptions only as needed.
 
 ## Lego
 ### Assignemnt Description
-  
-
+This assignment mainly targeted the importance and power of configurations and assembly of parts. It wanted us to create the lego part with multiple configurations that would, later on, be used in the assembly. Another critical skill it pointed out was drawings of sketches and demonstration of ways and techniques used in your work. 
 ### Evidence
 ![BUILDING BLOCK](https://user-images.githubusercontent.com/56890879/138303597-96788495-9708-4c49-8f2e-aff6ea54f30c.png)
 ![helicopter](https://user-images.githubusercontent.com/56890879/140766203-8de3f5d0-681b-4c6e-9dce-b357d04b26fc.png)
@@ -140,3 +139,5 @@ this would be doing it in your own way and use the descriptions only as needed.
 [Helicopter](https://cvilleschools.onshape.com/documents/dac50ba6e2122ed644e2225b/w/b9a01a23e1e1b1c32f1c3de6/e/4e6c90c242a7af0fafa96916)
 
 ### Reflection
+This assignment was somewhat easy, but at the same time pointed out the skill set that would reduce the time effort remarkably. Instead of creating eight different part
+studios, one single block of lego, but with multiple configurations replaced. Using these methods will considerably affect time efficiency.

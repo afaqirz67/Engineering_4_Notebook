@@ -1,0 +1,30 @@
+# RPI GPIO Pin Introduction
+# Written by Asadullah Faqirzada
+# 11.18.2021
+
+
+import RPi.GPIO as GPIO  # imports RPi.GPIO library it can be refered to as GPIO
+import time 		 # time library 
+GPIO.setmode(GPIO.BCM)   # Uses the Boardcom pin-numbering scheme
+
+led1 = 20		# Assigns pin 20 as led1 for better recognition
+led2 = 21		# ...
+
+GPIO.setup(led1, GPIO.OUT, initial=GPIO.LOW) # It starts with off leds	
+GPIO.setup(led2, GPIO.OUT, initial=GPIO.LOW) # Both leds are off
+#GPIO.setwarnings(False) # disables warning caused by confusion of GPIO as to whether the pin has been configuered to something other than the default input
+while True:
+	GPIO.setwarnings(False)
+	print('LED1 on')
+	GPIO.output(led1, GPIO.HIGH)
+	time.sleep(1.0)
+	print('LED1 off')
+	GPIO.output(led1, GPIO.LOW)
+	time.sleep(1.0)
+	print('LED2 on')
+	GPIO.output(led2, GPIO.HIGH)
+	time.sleep(1.0)
+	print('LED2 off')
+	GPIO.output(led2, GPIO.LOW)
+	time.sleep(1.0)
+

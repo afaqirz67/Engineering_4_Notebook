@@ -11,6 +11,7 @@
 * [BUILDING BLOCKS](#BUILDING-BLOCKS)
 * [Lego](#Lego)
 * [RPi Led Blink](#RPi-Led-Blink)
+* [safe_restart_shutdown_interrupt](#safe-restart-shutdown-interrupt)
 
 
 
@@ -151,3 +152,13 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 ### Part Link
 
 ### Reflection
+
+## safe_restart_shutdown_interrupt
+### Assingment Description
+
+### Evidence 
+
+### Part Link
+
+### Reflection
+

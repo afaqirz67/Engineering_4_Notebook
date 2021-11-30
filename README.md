@@ -11,7 +11,7 @@
 * [BUILDING BLOCKS](#BUILDING-BLOCKS)
 * [Lego](#Lego)
 * [RPi Led Blink](#RPi-Led-Blink)
-* [Safe_Restart_Shutdown_Interrupt](#Safe-Restart-Shutdown-Interrupt)
+* [RPi Safe Shutdown Button](#RPi-Safe-Shutdown-Button)
 
 
 

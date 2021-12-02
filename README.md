@@ -9,7 +9,7 @@
 * [Hangman](#Hangman)
 * [SKATEBOARD](#SKATEBOARD)
 * [BUILDING BLOCKS](#BUILDING-BLOCKS)
-* [Lego](#Lego)
+* [LEGO](#LEGO)
 * [RPi LED BLINK](#RPi-Led-Blink)
 * [RPi SAFE SHUTDOWN BUTTON](#RPi-Safe-Shutdown-Button)
 

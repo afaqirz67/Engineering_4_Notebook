@@ -157,7 +157,7 @@ https://user-images.githubusercontent.com/56890879/144444017-04206a9d-b0a5-46be-
 
 ### Reflection
 
-## RPi Safe Shutdown Button
+## RPi SAFE SHUTDOWN BUTTON
 ### Assingment Description
 
 ### Wiring

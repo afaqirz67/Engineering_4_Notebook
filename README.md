@@ -156,9 +156,9 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 ## RPi Safe Shutdown Button
 ### Assingment Description
 
-### Evidence 
+### Wiring
+<img src="https://user-images.githubusercontent.com/56890879/144439223-dc9cb3d5-0eee-4e5c-b882-451287b6ceca.JPG" width="350" height="400" />
 
-### Part Link
 
 ### Reflection
 

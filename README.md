@@ -149,6 +149,10 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 
 ### Evidence
 
+https://user-images.githubusercontent.com/56890879/144444017-04206a9d-b0a5-46be-a567-c11fedffb717.mp4
+
+
+
 ### Part Link
 
 ### Reflection
@@ -158,6 +162,7 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 
 ### Wiring
 <img src="https://user-images.githubusercontent.com/56890879/144439223-dc9cb3d5-0eee-4e5c-b882-451287b6ceca.JPG" width="350" height="400" />
+
 
 
 ### Reflection

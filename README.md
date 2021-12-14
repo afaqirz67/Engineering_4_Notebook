@@ -159,12 +159,17 @@ https://user-images.githubusercontent.com/56890879/144444017-04206a9d-b0a5-46be-
 
 ## RPi SAFE SHUTDOWN BUTTON
 ### Assingment Description
-
+In this assignment we were suppose to get our raspberry pi a shutdown button, so that every time you need to shut it down which is a necessary component for having the pi not 
+get fried. The button as the name of the assignment infers, shuts down the pi safely without having to shut the pi down with the shutdown scrpt "sudo shutdown -h now"every time
+you would want to shut the pi down.
 ### Wiring
 <img src="https://user-images.githubusercontent.com/56890879/144439223-dc9cb3d5-0eee-4e5c-b882-451287b6ceca.JPG" width="350" height="400" />
 
-
-
 ### Reflection
+This assignment was pretty easy in regards of wirring, and the code wasn't that bad either. The task was easy, but it was probably the most useful in terms of easing the use of
+RPi. For the wirring the purpose behind the it is to cut out the ground - that's basically how the code shuts it down. 
 
-
+3 NEW COMMAND FROM RPi SAFE SHUTDOWN:
+* process.communicate: ...
+* stdout: ...
+* subprocess.pOpen: ...

@@ -146,7 +146,7 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 
 ## RPi Led Blink
 ### Assignment Description
-
+This was a 
 ### Evidence
 
 https://user-images.githubusercontent.com/56890879/144444017-04206a9d-b0a5-46be-a567-c11fedffb717.mp4

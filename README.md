@@ -146,16 +146,18 @@ studios, one single block of lego, but with multiple configurations replaced. Us
 
 ## RPi Led Blink
 ### Assignment Description
-This was a 
+This was our primary task with raspberry pi involving extra hardware other then the pi board itself. The basic goal of this assignement was to get us fimiliar with how the pi
+is used, how the pins on the board work and their functionalities; with it the specific task was to light two leds. One led had to read low voltaeg and the other read high at 
+one specific point in timeline, meaning one led had to be one at a time. The past experience of playing with leds using arduino helped ease the work because the overall picture
+is not that different. 
 ### Evidence
 
 https://user-images.githubusercontent.com/56890879/144444017-04206a9d-b0a5-46be-a567-c11fedffb717.mp4
 
-
-
-### Part Link
-
 ### Reflection
+Although I mentioned before that the overall idea behind this is similar to having it done with arduino as well, there are quiet a few things that are functioning different.
+First is the programming language which is python here which is different than arduino. The raspberry pi board itself functions entirely different as of positioning of each
+pin and its task. Despite some these opsticles everyting else was clear.
 
 ## RPi SAFE SHUTDOWN BUTTON
 ### Assingment Description

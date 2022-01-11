@@ -27,13 +27,21 @@ SPI_DEVICE = 0
 # SPI_DEVICE = 0
 
 # 128x32 display with hardware I2C:
+<<<<<<< HEAD
 #disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
+=======
+# disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
+>>>>>>> 3a409db11e7f5589473de824bba9813f958a6cdf
 
 # 128x64 display with hardware I2C:
 # disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)
 
 # Note you can change the I2C address by passing an i2c_address parameter like:
+<<<<<<< HEAD
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
+=======
+ disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
+>>>>>>> 3a409db11e7f5589473de824bba9813f958a6cdf
 
 # Alternatively you can specify an explicit I2C bus number, for example
 # with the 128x32 display you would use:
@@ -88,7 +96,13 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
+<<<<<<< HEAD
     draw.text(accel_x)
+=======
+   draw.text((x, top),    accel_x,  font=font, fill=255)
+    draw.text((x, top+20), accel, font=font, fill=255)
+
+>>>>>>> 3a409db11e7f5589473de824bba9813f958a6cdf
     # Display image.
     disp.image(image)
     disp.display()

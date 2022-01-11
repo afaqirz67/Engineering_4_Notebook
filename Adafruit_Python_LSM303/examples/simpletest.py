@@ -1,8 +1,3 @@
-# Simple demo of of the LSM303 accelerometer & magnetometer library.
-# Will print the accelerometer & magnetometer X, Y, Z axis values every half
-# second.
-# Author: Tony DiCola
-# License: Public Domain
 import time
 
 # Import the LSM303 module.

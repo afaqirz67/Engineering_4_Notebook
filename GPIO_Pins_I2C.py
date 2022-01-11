@@ -1,36 +1,14 @@
-# Copyright (c) 2014 Adafruit Industries
-# Author: Tony DiCola
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-#
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-#
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-# THE SOFTWARE.
 import time
+
+import Adafruit_LSM303
 
 import Adafruit_GPIO.SPI as SPI
 import Adafruit_SSD1306
-
-# Import the LSM303 module.
-import Adafruit_LSM303
 
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
-# Create a LSM303 instance.
 lsm303 = Adafruit_LSM303.LSM303()
 
 
@@ -49,13 +27,13 @@ SPI_DEVICE = 0
 # SPI_DEVICE = 0
 
 # 128x32 display with hardware I2C:
-#disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
+disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
 
 # 128x64 display with hardware I2C:
 # disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)
 
 # Note you can change the I2C address by passing an i2c_address parameter like:
-disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
+# disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3C)
 
 # Alternatively you can specify an explicit I2C bus number, for example
 # with the 128x32 display you would use:
@@ -99,28 +77,17 @@ top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
-
-
-
-
-# Alternatively you can specify the I2C bus with a bus parameter:
-#lsm303 = Adafruit_LSM303.LSM303(busum=2)
-
+# Draw an ellipse.
 while True:
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
-          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
+    drawtext(accel_x)
     # Wait half a second and repeat.
     time.sleep(0.5)
-
-
-
-
-
+    
 
 # Load default font.
 font = ImageFont.load_default()
@@ -130,9 +97,15 @@ font = ImageFont.load_default()
 #font = ImageFont.truetype('Minecraftia.ttf', 8)
 
 # Write two lines of text.
+<<<<<<< HEAD
 # draw.text((x, top),    'Hello',  font=font, fill=255)
 # draw.text((x, top+20), 'Henry!', font=font, fill=255)
  	
+=======
+draw.text((x, top),    'Hello',  font=font, fill=255)
+draw.text((x, top+20), 'World!', font=font, fill=255)
+
+>>>>>>> 2881c89562d74b3ed3f3f29d63fe7b1c71d16d92
 # Display image.
 disp.image(image)
 disp.display()

@@ -15,7 +15,7 @@
 * [GPIO Pins - I2C](#GPIO-Pins-I2C)
 * [Headless Accelerometer](#Headless-Accelerometer)
 * [Pi Camera](#Pi-Camera)
-* [Copypasta](#Copypasta)
+* [COPYPASTA](#Copypasta)
 
 
 

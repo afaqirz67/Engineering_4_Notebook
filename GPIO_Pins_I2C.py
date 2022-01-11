@@ -84,7 +84,7 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-    draw.accel_x
+    drawtext(accel_x)
     # Wait half a second and repeat.
     time.sleep(0.5)
     

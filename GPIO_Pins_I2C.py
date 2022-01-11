@@ -130,8 +130,8 @@ font = ImageFont.load_default()
 #font = ImageFont.truetype('Minecraftia.ttf', 8)
 
 # Write two lines of text.
-//draw.text((x, top),    'Hello',  font=font, fill=255)
-//draw.text((x, top+20), 'Henry!', font=font, fill=255)
+# draw.text((x, top),    'Hello',  font=font, fill=255)
+# draw.text((x, top+20), 'Henry!', font=font, fill=255)
  	
 # Display image.
 disp.image(image)

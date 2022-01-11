@@ -13,8 +13,8 @@
 * [RPi LED BLINK](#RPi-Led-Blink)
 * [RPi SAFE SHUTDOWN BUTTON](#RPi-Safe-Shutdown-Button)
 * [GPIO Pins - I2C](#GPIO-Pins-I2C)
-* [Headless Accelerometer](#Headless-Accelerometer)
-* [Pi Camera](#Pi-Camera)
+* [HEADLESS ACCELEROMETER](#Headless-Accelerometer)
+* [Pi CAMERA](#Pi-Camera)
 * [COPYPASTA](#Copypasta)
 
 
@@ -191,7 +191,7 @@ RPi. For the wirring the purpose behind the it is to cut out the ground - that's
 ### Reflection
 
 
-## Headless Accelerometer
+## HEADLESS ACCELEROMETER
 ### Assignment Description
 ....
 

@@ -84,9 +84,7 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-    print('Accel X={0}, Accel Y={1}, Accel Z={2}, Mag X={3}, Mag Y={4}, Mag Z={5}'.format(
-          accel_x, accel_y, accel_z, mag_x, mag_y, mag_z))
-          draw.accel_x
+    draw.accel_x
     # Wait half a second and repeat.
     time.sleep(0.5)
     

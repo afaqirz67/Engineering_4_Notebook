@@ -83,7 +83,6 @@ top = padding
 bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
-# Draw an ellipse.
 
 # Load default font.
 font = ImageFont.load_default()
@@ -94,17 +93,16 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-    draw.text(accel_x)
 
-    draw.text((x, top),    accel_x,  font=font, fill=255)
-    draw.text((x, top+20), accel, font=font, fill=255)
-
+    draw.text((5,5),   f" accel x {accel_x} ",  font=font, fill=55)
+    draw.text((x, top+20), f"accel_y {accel_z}", font=font, fill=55)
+   
     # Display image.
     disp.image(image)
     disp.display()
     # Wait half a second and repeat.
     time.sleep(0.5)
-    
+    disp.clear()
 
 
 

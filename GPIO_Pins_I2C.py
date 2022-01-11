@@ -78,6 +78,10 @@ bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = padding
 # Draw an ellipse.
+
+# Load default font.
+font = ImageFont.load_default()
+
 while True:
     # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
@@ -85,27 +89,20 @@ while True:
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
     drawtext(accel_x)
+    # Display image.
+    disp.image(image)
+    disp.display()
     # Wait half a second and repeat.
     time.sleep(0.5)
     
 
-# Load default font.
-font = ImageFont.load_default()
+
 
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 #font = ImageFont.truetype('Minecraftia.ttf', 8)
 
-# Write two lines of text.
-<<<<<<< HEAD
-# draw.text((x, top),    'Hello',  font=font, fill=255)
-# draw.text((x, top+20), 'Henry!', font=font, fill=255)
- 	
-=======
-draw.text((x, top),    'Hello',  font=font, fill=255)
-draw.text((x, top+20), 'World!', font=font, fill=255)
 
->>>>>>> 2881c89562d74b3ed3f3f29d63fe7b1c71d16d92
 # Display image.
 disp.image(image)
 disp.display()

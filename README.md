@@ -216,7 +216,7 @@ RPi. For the wirring the purpose behind the it is to cut out the ground - that's
 
 ## COPYPASTA
 ### Assignment Description
-....
+This is assignment required us to hook up an OLED screen and a 
 
 
 ### Wiring

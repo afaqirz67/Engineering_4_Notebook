@@ -96,7 +96,7 @@ while True:
 
     draw.text((5,5),   f" accel x {accel_x} ",  font=font, fill=55)
     draw.text((x, top+20), f"accel_y {accel_z}", font=font, fill=55)
-   
+    draw.rectangle((0,0,width,height), outline=0, fill=0)
     # Display image.
     disp.image(image)
     disp.display()

@@ -199,6 +199,12 @@ RPi. For the wirring the purpose behind the it is to cut out the ground - that's
 ### Wiring
 <img src="" width = "350" height="400" />
 
+![IMG-4231](https://user-images.githubusercontent.com/56890879/149384515-4d6a8df3-edcb-4211-b89a-5b3b969dddf6.JPG)
+
+![IMG-4231](https://user-images.githubusercontent.com/56890879/149384601-3be36288-5e42-485c-80e8-969e66349635.JPG)
+
+
+
 ### Reflection
 
 

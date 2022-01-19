@@ -87,11 +87,10 @@ x = padding
 # Load default font.
 font = ImageFont.load_default()
 
-draw.polygon([(x, bottom), (x+shape_width/2, top), (x+shape_width, bottom)], outline=255, fill=0)
-x += shape_width+padding
 
 while True:
-  # Read the X, Y, Z axis acceleration values and print them.
+   
+   # Read the X, Y, Z axis acceleration values and print them.
     accel, mag = lsm303.read()
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
@@ -104,13 +103,16 @@ while True:
     draw.text((5,5),   f" accel x {accel_x} ",  font=font, fill=55)
     draw.text((x, top+20), f"accel_y {accel_z}", font=font, fill=55)
     draw.rectangle((0,0,width,height), outline=0, fill=0)
+<<<<<<< HEAD
 
+=======
+    draw.ellipse((x, top , x+shape_width+10, bottom+10), outline=255, fill=0) x += shape_width+padding
+>>>>>>> 778cc7bc85ad957f9bbadae392a9a383e910ebc0
     # Display image.
     disp.image(image)
     disp.display()
     # Wait half a second and repeat.
    # time.sleep(0.5)
-    disp.clear()
 
 
 

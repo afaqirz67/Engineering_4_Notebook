@@ -93,17 +93,16 @@ while True:
     # Grab the X, Y, Z components from the reading and print them out.
     accel_x, accel_y, accel_z = accel
     mag_x, mag_y, mag_z = mag
-<<<<<<< HEAD
+
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     draw.text((x, top),   f" X: {round(accel_x/102.34)} ",  font=font, fill=55)
     draw.text((x, top+20), f" Y: {round(accel_y/102.34)}", font=font, fill=55)
     draw.text((x, top+40), f" Z: {round(accel_z/102.34)}", font=font, fill=55)
-=======
+
 
     draw.text((5,5),   f" accel x {accel_x} ",  font=font, fill=55)
     draw.text((x, top+20), f"accel_y {accel_z}", font=font, fill=55)
     draw.rectangle((0,0,width,height), outline=0, fill=0)
->>>>>>> ef2935712da487db5feb792b9296c5fbb613e271
     # Display image.
     disp.image(image)
     disp.display()

@@ -54,8 +54,8 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     #draw.text((5, 2), f" X: {round(accel_x/102.34)} ",  font=font, fill=55)
     #draw.text((5, 22), f" Y: {round(accel_y/102.34)}", font=font, fill=55)
-    yCoor = round(-accel_x*2/102.34)+60
-    xCoor = round(-accel_y*2/102.34)+30
+    yCoor = round(-accel_x*2/102.34)+30
+    xCoor = round(-accel_y*2/102.34)+60
     draw.ellipse((xCoor, yCoor, xCoor+10, yCoor+10), outline=255, fill=0) 
     
     # Display image.

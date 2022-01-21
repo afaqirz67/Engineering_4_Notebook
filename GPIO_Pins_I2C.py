@@ -107,9 +107,7 @@ while True:
     disp.image(image)
     disp.display()
     # Wait half a second and repeat.
-   # time.sleep(0.5)
-    disp.clear()
-
+    time.sleep(000.5)
 
 
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the same directory as the python script!

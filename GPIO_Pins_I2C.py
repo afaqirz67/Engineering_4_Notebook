@@ -41,6 +41,7 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 # Draw some shapes.
 # First define some constants to allow easy resizing of shapes.
 shape_width = 20
+padding = 2
 bottom = height-padding
 
 # Load default font.

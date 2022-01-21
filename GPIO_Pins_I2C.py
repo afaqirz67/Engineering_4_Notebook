@@ -55,13 +55,13 @@ while True:
     draw.text((5, 2), f" X: {round(accel_x/102.34)} ",  font=font, fill=55)
     draw.text((5, 22), f" Y: {round(accel_y/102.34)}", font=font, fill=55)
     draw.text((5, 22), f" Z: {round(accel_z/102.34)}", font=font, fill=55)
-    draw.rectangle((0,0,width,height), outline=0, fill=0)
+    
     # Display image.
     disp.image(image)
     disp.display()
     # Wait half a second and repeat.
-    time.sleep(000.5)
+    time.sleep(0.1)
 
 
-disp.image(image)
-disp.display()
+#disp.image(image)
+#disp.display()

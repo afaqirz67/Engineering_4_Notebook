@@ -183,7 +183,8 @@ RPi. For the wirring the purpose behind the it is to cut out the ground - that's
 ## GPIO Pins I2C
 ### Assignment Description
 This assignment required us to use an accelerometer sensor to display the x, y, and z axis acceleration on an OLED screen. The hardware part is simply wiring the oled, and the
-accelerometer to the RPi, a three way connection. 
+accelerometer to the RPi, a three way connection. For the code part it was a mash up of two different programs, one sololy for the screen display and another for the axis 
+calculations.
 
 ### Wiring
 <img src="https://user-images.githubusercontent.com/56890879/149384924-79daf461-5aaa-481c-a653-96a28c21cea5.JPG" width = "350" height="400" />
@@ -191,11 +192,15 @@ accelerometer to the RPi, a three way connection.
 
 
 ### Reflection
-The assignment over all was a little difficult because I had hard time debugging the connection failiure I got from the RPi which I thought came from poor wiring. I had to leave 
+The assignment over all was a little difficult because I had hard time debugging the connection failiure I got from the RPi which I thought came from poor wiring. Lose wires
+were part of the issue, but the real issue was in code. Another issue I encountered was when pushing to GitHubu I accedintly pulled and the previous version of my code somehow 
+replaced my updated version and that caused some issues which had me spent extra time debuging the issue. 
 
 ## HEADLESS ACCELEROMETER
 ### Assignment Description
-....
+This assignnment is an add up to the previous assingment, the GPIO Pins which displayed the X, Y, and Z axis on an OLED screen. The task was to display the output graphically 
+using shapes (a dot, bar, or line). The second part was to have the program run without having it be connected to a computer. Instead it was suppose to be powered by a battery 
+and to have that work, some other modifications needed in the code. 
 
 
 ### Wiring
@@ -206,7 +211,8 @@ The assignment over all was a little difficult because I had hard time debugging
 
 
 ### Reflection
-
+The first part which was displaying the output graphically was not as hard. We got it pretty quick, but again, we encountered the same issue we had with GPIO Pins. The different
+versions of the code were swapped back and forth, but the little experience from last time made it a quick fix. 
 
 
 ## Pi Camera

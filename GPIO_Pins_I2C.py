@@ -60,7 +60,7 @@ while True:
     disp.image(image)
     disp.display()
     # Wait half a second and repeat.
-    time.sleep(1/4)
+    time.sleep(000.5)
 
 
 disp.image(image)

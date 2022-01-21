@@ -17,7 +17,6 @@ SPI_PORT = 0
 SPI_DEVICE = 0
 
 lsm303 = Adafruit_LSM303.LSM303()
-mag_x, mag_y, mag_z = mag
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 
 
@@ -49,6 +48,7 @@ font = ImageFont.load_default()
 
 while True:
     accel, mag = lsm303.read()
+    mag_x, mag_y, mag_z = mag
     accel_x, accel_y, accel_z = accel
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     draw.text((5, 2), f" X: {round(accel_x/102.34)} ",  font=font, fill=55)

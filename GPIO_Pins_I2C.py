@@ -54,7 +54,7 @@ while True:
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     draw.text((5, 2), f" X: {round(accel_x/102.34)} ",  font=font, fill=55)
     draw.text((5, 22), f" Y: {round(accel_y/102.34)}", font=font, fill=55)
-    draw.text((5, 22), f" Z: {round(accel_z/102.34)}", font=font, fill=55)
+    draw.text((5, 42), f" Z: {round(accel_z/102.34)}", font=font, fill=55)
     
     # Display image.
     disp.image(image)

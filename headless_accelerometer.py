@@ -49,7 +49,7 @@ font = ImageFont.load_default()
 
 while True:
     accel, mag = lsm303.read()
-    mag_x, mag_y, mag_z = mag
+    #mag_x, mag_y, mag_z = mag
     accel_x, accel_y, accel_z = accel
     draw.rectangle((0,0,width,height), outline=0, fill=0)
     #draw.text((5, 2), f" X: {round(accel_x/102.34)} ",  font=font, fill=55)

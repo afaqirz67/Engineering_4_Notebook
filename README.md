@@ -204,15 +204,14 @@ and to have that work, some other modifications needed in the code.
 
 
 ### Wiring
-<img src="" width = "350" height="400" />
-
-
-
-
+https://user-images.githubusercontent.com/56890879/151005685-64b9e744-6403-402e-a4d6-d26779f4f28b.mp4
 
 ### Reflection
 The first part which was displaying the output graphically was not as hard. We got it pretty quick, but again, we encountered the same issue we had with GPIO Pins. The different
-versions of the code were swapped back and forth, but the little experience from last time made it a quick fix. 
+versions of the code were swapped back and forth, but the little experience from last time made it a quick fix. The second part was running the program without having it 
+be connected to a computer and monitor. This was fairly easy and the only issue I encountered was naming my program. I named the service "headless_accelerometer.py.service" the 
+same name as my file that had the code for the program. It might have not liked .py because when I created another service and renamed it "acceleration_bubble.service", it was 
+working fine. So it was the .py or the state of having two dots in the name of the serviec that caused it to fail running. 
 
 
 ## Pi Camera
@@ -220,8 +219,10 @@ versions of the code were swapped back and forth, but the little experience from
 ....
 
 
-### Wiring
+### Evidence
 <img src="" width = "350" height="400" />
+
+
 
 ### Reflection
 

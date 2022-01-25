@@ -1,2 +1,0 @@
-raspistill -o camera_test.jpg -w 640 -h 48
-

@@ -14,7 +14,7 @@ with picamera.PiCamera() as camera:
     time.sleep(2)
     for x in range(5):
         camera.image_effect = effect_array[i]
-        camera.capture(pic_array)
+        camera.capture(pic_array[x])
         print('done!')
         i+=1
         x+=1

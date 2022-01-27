@@ -222,8 +222,8 @@ one to store the image effects and another one for storing the images, so that e
 
 
 ### Evidence
-<img src="https://user-images.githubusercontent.com/56890879/151388624-093ad31b-9db9-451c-9c14-e9e26340bf0d.jpg" width = "450" height="350" />  <img src="https://user-images.githubusercontent.com/56890879/151388634-0996b9e6-194d-4950-91c6-a8aa918a841b.jpg" width = "450" height="350" /> 
-<img src="https://user-images.githubusercontent.com/56890879/151388643-e3adf337-2670-4872-8bea-f2b332140bfb.jpg" width = "450" height="350" />  <img src="https://user-images.githubusercontent.com/56890879/151389344-4218f079-3825-4975-ac59-54c41a848723.jpg" width = "450" height="350" />
+<img src="https://user-images.githubusercontent.com/56890879/151388624-093ad31b-9db9-451c-9c14-e9e26340bf0d.jpg" width = "425" height="350" />  <img src="https://user-images.githubusercontent.com/56890879/151388634-0996b9e6-194d-4950-91c6-a8aa918a841b.jpg" width = "425" height="350" /> 
+<img src="https://user-images.githubusercontent.com/56890879/151388643-e3adf337-2670-4872-8bea-f2b332140bfb.jpg" width = "425" height="350" />  <img src="https://user-images.githubusercontent.com/56890879/151389344-4218f079-3825-4975-ac59-54c41a848723.jpg" width = "425" height="350" />
 
 
 ### Reflection

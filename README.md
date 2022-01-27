@@ -216,7 +216,9 @@ working fine. So it was the .py or the state of having two dots in the name of t
 
 ## Pi Camera
 ### Assignment Description
-....
+For this assignment we were tasked to use the RPi camera to take pictures. The hardware did not require a lot, it was just attaching the camera that is part of the RPi zero 
+which we are using. The code was pretty simple too. The program had to take 5 pictures with different image effects. We used for loop for the reiteration and two sets of array,
+one to store the image effects and another one for storing the images, so that each image does not overlap the other.
 
 
 ### Evidence
@@ -225,8 +227,8 @@ working fine. So it was the .py or the state of having two dots in the name of t
 
 
 ### Reflection
-
-
+The wasn't a lot of trouble shooting in this program, but one thing that got me was the second array which was for saving each image it takes and save it with a different name.
+For storing an image I had to define the formate of the elements in the array. For images I used 'nameYouWantitStoredAs.jpg'.
 ## COPYPASTA
 ### Assignment Description
 This is assignment required us to hook up an OLED screen and a 

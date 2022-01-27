@@ -2,7 +2,7 @@ import time
 import picamera
 
 effect_array = ['watercolor', 'blur', 'washedout', 'cartoon', 'hatch']
-pic_array = [v, v2, v3 ,v4 ,v5]
+pic_array = ['v', 'v2', 'v3' ,'v4' ,'v5']
 x= 1;
 i = 0; 
 with picamera.PiCamera() as camera:

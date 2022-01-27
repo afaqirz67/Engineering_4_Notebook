@@ -2,6 +2,8 @@ import time
 import picamera
 
 effect_array = ['watercolor', 'blur', 'washedout', 'cartoon', 'hatch']
+pic_array = [v, v2, v3 ,v4 ,v5]
+x= 1;
 i = 0; 
 with picamera.PiCamera() as camera:
     camera.resolution = (1024, 768)
@@ -15,5 +17,6 @@ with picamera.PiCamera() as camera:
         camera.capture('foo.jpg')
         print('done!')
         i+=1
+        x+=1
         time.sleep(0.1)
 

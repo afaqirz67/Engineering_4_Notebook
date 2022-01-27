@@ -232,7 +232,8 @@ The wasn't a lot of trouble shooting in this program, but one thing that got me 
 For storing an image I had to define the formate of the elements in the array. For images I used 'nameYouWantitStoredAs.jpg'.
 ## COPYPASTA
 ### Assignment Description
-This is assignment required us to hook up an OLED screen and a 
+This is assignment required us to use the RPi camera to take pictures and make a video with it. The program had to run in a while loop so that you could take as many pictures 
+as you want with pressing a push button and exit the loop with keyboard interuption.
 
 
 ### Wiring

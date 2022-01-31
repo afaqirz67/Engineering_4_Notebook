@@ -21,7 +21,7 @@ while True:
         #button.wait_for_press()
         #camera.image_effect = effect_array[i]
         camera.capture(f"/home/pi/Documents/Engineering_4_Notebook/pastafile/{frame}.jpg") 
-        print(num)
+        print(f"pic {num}")
         frame += 1
         i+=1
         num +=1

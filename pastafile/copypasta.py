@@ -17,12 +17,13 @@ frame = 1
 print('code working')
 while True:
     try:
-        button.wait_for_press()
+        #button.wait_for_press()
         #camera.image_effect = effect_array[i]
         camera.capture(f"/home/pi/Documents/Engineering_4_Notebook/pastafile/{frame}.jpg") 
         print('working..')
         frame += 1
         i+=1
+        time.sleep(1.0)
     except KeyboardInterrupt:
         camera.stop_preview()
         break

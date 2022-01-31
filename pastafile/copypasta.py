@@ -14,16 +14,18 @@ camera.resolution = (1280, 720)
 time.sleep(2)
 camera.start_preview()
 frame = 1
+num = 1
 print('code working')
 while True:
     try:
         #button.wait_for_press()
         #camera.image_effect = effect_array[i]
         camera.capture(f"/home/pi/Documents/Engineering_4_Notebook/pastafile/{frame}.jpg") 
-        print('working..')
+        print(num)
         frame += 1
         i+=1
-        time.sleep(1.0)
+        num +=1
+        time.sleep(2.0)
     except KeyboardInterrupt:
         camera.stop_preview()
         break

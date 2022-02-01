@@ -240,8 +240,7 @@ as you want with pressing a push button and exit the loop with keyboard interupt
 
 
 ### Wiring
-
-![copypasta wiring](https://user-images.githubusercontent.com/56890879/151989787-1d5d95bc-6e99-49d6-b456-88f32eb3008d.JPG)
+<img src="https://user-images.githubusercontent.com/56890879/151989787-1d5d95bc-6e99-49d6-b456-88f32eb3008d.JPG" width = "350" height="400" />
 
 
 ### Video

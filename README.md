@@ -229,18 +229,32 @@ one to store the image effects and another one for storing the images, so that e
 
 ### Reflection
 The wasn't a lot of trouble shooting in this program, but one thing that got me was the second array which was for saving each image it takes and save it with a different name.
-For storing an image I had to define the formate of the elements in the array. For images I used 'nameYouWantitStoredAs.jpg'.
+For storing an image I had to define the formate of the elements in the array. For images I used 'nameYouWantitStoredAs.jpg' so it would save each picture with .jpg formate. 
+There are built-in libraries that do it for you but for this program we needed to take 5 pictures at a time so I used an array and a varaibe that would be incremented each time
+the loop iritates which would save the pictures with different names while storing them so that they don't overlap.`
+
 ## COPYPASTA
 ### Assignment Description
 This is assignment required us to use the RPi camera to take pictures and make a video with it. The program had to run in a while loop so that you could take as many pictures 
-as you want with pressing a push button and exit the loop with keyboard interuption.
+as you want with pressing a push button and exit the loop with keyboard interuption. Once the pictures are taken we had to make a slow motion of a gif from it. 
 
 
 ### Wiring
-<img src="" width = "350" height="400" />
+
+![copypasta wiring](https://user-images.githubusercontent.com/56890879/151989787-1d5d95bc-6e99-49d6-b456-88f32eb3008d.JPG)
+
+
+### Video
+https://user-images.githubusercontent.com/56890879/151987190-f6dcceb9-ff13-4a01-bac0-e1bce517f231.mp4
+
+
 
 ### Reflection
-
+The code for the program was not that bad but the pi camera give me hard time using it. The picture taking part is probably the hard part because you are basically taking blind
+photos. There is no extra wiring for the camera and it's the button for taking the pictures. I later modified my code so that it would take pictures every other two seconds 
+while taking pictures for the video. If you don't have a strong wifi connection you should be expecting slower upload time from your Rpi to GitHub. Also "ffmpeg -r 10 -i
+pathtoyourpicturefile/frame%03d.jpg -qscale 2 animation.mp4" the command for making the video in terminal did not work for me so I used an online gif maker to make the video 
+with.
 
 # [Back to the TOP](#Engineering_4_Notebook)
 

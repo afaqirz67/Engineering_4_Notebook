@@ -226,7 +226,7 @@ one to store the image effects and another one for storing the images, so that e
 
 ![Screenshot 2022-01-27 103944](https://user-images.githubusercontent.com/56890879/151392082-d7560214-e7d7-4b4c-88dc-e1578378e28e.png)
 
-Picture: ![@Henry Coyle](https://github.com/hcoyle91)
+Picture: [@Henry Coyle](https://github.com/hcoyle91)
 ### Reflection
 The wasn't a lot of trouble shooting in this program, but one thing that got me was the second array which was for saving each image it takes and save it with a different name.
 For storing an image I had to define the formate of the elements in the array. For images I used 'nameYouWantitStoredAs.jpg' so it would save each picture with .jpg formate. 
